@@ -1,0 +1,78 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header{
+    background-image: url('../images/dev2.jpg'), url('../images/headerbg.jpg');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+/*nav style*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    }
+.dark-2{
+    color: #474747;
+}
+nav .text-primary {
+    color: orange;
+}
+.btn-primary{
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-right: 10px;
+}
+nav li {
+    list-style: none;
+    margin-right: 51px;
+    
+}
+nav li a{
+    text-decoration: none;
+}
+
+/*banner style*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-gretting{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.ban-pp{
+    width: 500px;
+}
+
